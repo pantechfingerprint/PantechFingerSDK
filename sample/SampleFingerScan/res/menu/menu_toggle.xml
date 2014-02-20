@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_item_toggle"
+        android:actionLayout="@layout/layout_toggle_button"
+        android:showAsAction="always"/>
+</menu>

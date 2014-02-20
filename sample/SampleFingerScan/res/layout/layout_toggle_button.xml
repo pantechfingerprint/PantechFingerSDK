@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ToggleButton
+        android:id="@+id/toggle_button"
+        android:layout_width="@dimen/toggle_width"
+        android:layout_height="@dimen/toggle_height"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/toggle_margin_right"
+        android:background="@drawable/toggle_selector"
+        android:textOff=""
+        android:textOn="" />
+
+</LinearLayout>

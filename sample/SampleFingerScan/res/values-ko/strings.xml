@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VEGA FingerSDK sample</string>
+    
+    <string name="dialog_title_support">지문 센서</string>
+    <string name="dialog_msg_support">지문 인식 센서가 있는 휴대전화에서만 테스트 가능합니다.</string>
+    <string name="dialog_title_success">지문 확인</string>
+    <string name="dialog_msg_success">지문인식 성공!</string>
+    
+    
+    <string name="text_main_title">Vega Secret 지문인식</string>    
+    <string name="button_vega_finger">VEGA 지문인식</string>
+    <string name="button_request_continue">계속하기</string>
+    
+    <string name="title_main">VEGA SECRET\n지문인식</string>
+    <string name="title_request">지문 센서 동작 확인</string>
+    <string name="title_information">센서 사용 정보 확인</string>
+    
+    <string name="text_title_request_count">동작 횟수</string>    
+    <string name="text_title_request_result">지문인식 결과</string>
+    
+    <string name="text_title_info_support">지문인식 지원</string>
+    <string name="text_title_permission_result">어플리케이션 퍼미션</string>
+    <string name="text_title_enroll_result">지문 등록</string>
+    
+    <string name="title_dialog_enroll">지문 등록</string>
+    <string name="message_dialog_enroll">등록된 지문이 없습니다. 지문을 등록하시겠습니까?</string>
+    
+    
+</resources>

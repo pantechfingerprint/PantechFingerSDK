@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/pt_btn_toggle_off_kor_focused_holo_dark" android:state_checked="false" android:state_enabled="true" android:state_focused="true"/>
+    <item android:drawable="@drawable/pt_btn_toggle_off_kor_pressed_holo_dark" android:state_checked="false" android:state_enabled="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/pt_btn_toggle_off_kor_disabled_focused_holo_dark" android:state_checked="false" android:state_enabled="false" android:state_focused="true"/>
+    <item android:drawable="@drawable/pt_btn_toggle_off_kor_disabled_holo_dark" android:state_checked="false" android:state_enabled="false"/>
+    <item android:drawable="@drawable/pt_btn_toggle_off_kor_normal_holo_dark" android:state_checked="false" android:state_enabled="true"/>
+    
+    <item android:drawable="@drawable/pt_btn_toggle_on_kor_focused_holo_dark" android:state_checked="true" android:state_enabled="true" android:state_focused="true"/>
+    <item android:drawable="@drawable/pt_btn_toggle_on_kor_pressed_holo_dark" android:state_checked="true" android:state_enabled="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/pt_btn_toggle_on_kor_disabled_focused_holo_dark" android:state_checked="true" android:state_enabled="false" android:state_focused="true"/>
+    <item android:drawable="@drawable/pt_btn_toggle_on_kor_disabled_holo_dark" android:state_checked="true" android:state_enabled="false"/>
+    <item android:drawable="@drawable/pt_btn_toggle_on_kor_normal_holo_dark" android:state_checked="true" android:state_enabled="true"/>
+
+</selector>
