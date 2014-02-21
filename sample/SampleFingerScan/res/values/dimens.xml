@@ -9,10 +9,14 @@
     
     <dimen name="main_image_width">127dip</dimen>
     <dimen name="main_image_height">196dip</dimen>
+           
     
-    <dimen name="button_padding">25dip</dimen>
-    <dimen name="button_drawable_padding">10dip</dimen>
-    <dimen name="button_minHeight">77dip</dimen>
+    <dimen name="layout_minHeight">57dip</dimen>
+    <dimen name="image_margin_left">25dip</dimen>
+    <dimen name="text_margin_left">10dip</dimen>
+    <dimen name="image_margin_right">29dip</dimen>
+    <dimen name="image_size">33dip</dimen>
+    
     
     <dimen name="textfield_padding">15dip</dimen>
     <dimen name="textfield_height">39dip</dimen>

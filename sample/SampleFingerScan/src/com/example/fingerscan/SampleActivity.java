@@ -26,16 +26,15 @@ import android.view.View;
 import com.pantech.fingerscan.FingerScanUtils;
 
 public class SampleActivity extends Activity{
-
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		getActionBar().setTitle(getString(R.string.title_main));
-		getActionBar().setIcon(R.drawable.main_vega);
-		getActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.pt_ab_transparent_holo_dark));
 		
+		getActionBar().setTitle(getString(R.string.title_main));
+		getActionBar().setIcon(R.drawable.ic_launcher);
+		getActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.pt_ab_transparent_holo_dark));		
 	}
 	
 	public void buttonVegaFingerClicked(View view){

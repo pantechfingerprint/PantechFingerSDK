@@ -1,52 +1,39 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SampleRequestActivity"
-    android:background="@android:color/background_dark" >
+    android:background="@android:color/background_dark"
+    android:orientation="vertical" >
 
     <TextView
         android:id="@+id/text_title_request_count"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"        
-        android:layout_alignParentTop="true"
-        android:text="@string/text_title_request_count"
-        android:paddingTop="@dimen/textfield_padding"
-        android:paddingLeft="@dimen/textfield_padding"
-        android:paddingRight="@dimen/textfield_padding"
-        android:textColor="@android:color/white" />
-    
-    <TextView
-        android:id="@+id/text_summary_request_count"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/textfield_height"
-        android:layout_marginLeft="@dimen/textfield_padding"
-        android:layout_marginRight="@dimen/textfield_padding"        
-        android:layout_below="@+id/text_title_request_count" 
-        android:gravity="center_vertical"       
-        android:background="@drawable/pt_textfield_default_holo_dark"
-        android:textColor="@android:color/white" />
-    
-    <TextView
-        android:id="@+id/text_title_request_result"
+        style="@style/text_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/text_summary_request_count"
-        android:text="@string/text_title_request_result"
-        android:paddingTop="@dimen/textfield_padding"
-        android:paddingLeft="@dimen/textfield_padding"
-        android:paddingRight="@dimen/textfield_padding"
-        android:textColor="@android:color/white" />
+        android:text="@string/text_title_request_count" />
+
+    <TextView
+        android:id="@+id/text_summary_request_count"
+        style="@style/text_summary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textfield_height" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/pt_list_divider_holo_dark" />
+
+    <TextView
+        android:id="@+id/text_title_request_result"
+        style="@style/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_title_request_result" />
 
     <TextView
         android:id="@+id/text_summary_request_result"
+        style="@style/text_summary"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/textfield_height"
-        android:layout_marginLeft="@dimen/textfield_padding"
-        android:layout_marginRight="@dimen/textfield_padding"
-        android:layout_below="@+id/text_title_request_result"
-        android:gravity="center_vertical"
-        android:background="@drawable/pt_textfield_default_holo_dark"
-        android:textColor="@android:color/white" />
-    
-</RelativeLayout>
+        android:layout_height="@dimen/textfield_height" />
+
+</LinearLayout>

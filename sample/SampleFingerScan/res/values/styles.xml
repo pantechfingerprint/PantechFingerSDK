@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -16,5 +16,54 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-
+    
+    <style name="text_title" >  
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingTop">@dimen/textfield_padding</item>
+        <item name="android:paddingLeft">@dimen/textfield_padding</item>
+        <item name="android:paddingRight">@dimen/textfield_padding</item>        
+    </style>
+    
+    <style name="text_summary" >
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/textfield_padding</item>
+        <item name="android:layout_marginRight">@dimen/textfield_padding</item>
+        <item name="android:layout_marginBottom">@dimen/textfield_padding</item>
+        <item name="android:background">@drawable/pt_textfield_default_holo_dark</item>
+    </style>
+    
+    <style name="layout_button" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:minHeight">@dimen/layout_minHeight</item>
+        <item name="android:focusable">true</item>
+    </style>
+    
+    <style name="image_left" >
+        <item name="android:layout_width">@dimen/image_size</item>
+        <item name="android:layout_height">@dimen/image_size</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">@dimen/image_margin_left</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    
+    <style name="text_middle" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin_left</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    <style name="image_right" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/image_margin_right</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
 </resources>

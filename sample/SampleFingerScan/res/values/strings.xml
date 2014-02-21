@@ -4,26 +4,26 @@
     <string name="app_name">VEGA FingerSDK sample</string>
     
     <string name="dialog_title_support">Fingerscan sensor</string>
-    <string name="dialog_msg_support">No fingerscan sensor</string>
+    <string name="dialog_msg_support">No sensor for fingerscan</string>
     <string name="dialog_title_success">Confirmed fingerprint</string>
-    <string name="dialog_msg_success">No enrolled fingerprint</string>
+    <string name="dialog_msg_success">Verified fingerprint!</string>
     
     
     <string name="text_main_title">Vega FingerSDK sample app</string>    
-    <string name="button_vega_finger">VEGA default fingerscan</string>    
+    <string name="button_vega_finger">VEGA Fingerscan</string>    
     <string name="button_request_continue">Continue</string>    
     
     <string name="title_main">VEGA SECRET\nFinger recognition</string>
     <string name="title_request">Request fingerscan</string>
-    <string name="title_information">Information of finger sensor</string>
+    <string name="title_information">Information of a sensor</string>
     
     <string name="text_title_request_count">Count of request</string>    
     <string name="text_title_request_result">Result of fingerscans</string>
     
     <string name="text_title_info_support">Support fingerscan?</string>
     <string name="text_title_permission_result">Has a permission for fingerscan?</string>
-    <string name="text_title_enroll_result">Enrolled fingerrprint?</string>
+    <string name="text_title_enroll_result">Enrolled a fingerrprint?</string>
     
     <string name="title_dialog_enroll">No fingerprint</string>
-    <string name="message_dialog_enroll">Do you want to enroll finger print?</string>
+    <string name="message_dialog_enroll">Do you want to enroll your fingerprint?</string>
 </resources>
